@@ -67,3 +67,24 @@ mg=(m*75)
 print('peso total de muñecas', mg)
 pgmg=(pg+mg)
 print('peso total de payasos y muñecas', pgmg)'''
+
+#ejercicio 11
+'''print('cantidad de dinero primer año')
+primer=float(input())
+porcentajeaumento=float(4)
+porcentaje1=(primer*(porcentajeaumento/100))
+print('aumento primer año', porcentaje1)
+print('cantidad de dinero segundo año')
+segundo=float(input())
+porcentaje2=(segundo*(porcentajeaumento/100))
+print('aumento segundo año', porcentaje2)
+print('cantidad tercer año')
+tercer=float(input())
+porcentaje3=(tercer*(porcentajeaumento/100))
+print('aumento tercer año', porcentaje3)
+total=(porcentaje1+porcentaje2+porcentaje3)
+print('aumento de los tres años en total', total)'''
+
+#ejercicio 12
+
+
