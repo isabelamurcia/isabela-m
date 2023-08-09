@@ -85,6 +85,60 @@ print('aumento tercer año', porcentaje3)
 total=(porcentaje1+porcentaje2+porcentaje3)
 print('aumento de los tres años en total', total)'''
 
-#ejercicio 12
+#PRACTICA 2
+#ejercicio 1
+'''print('introducir un numero')
+n=int(input())
+s=((n*(n+1))/2)
+if s>20:print(s,'es un gran numero!')
+else: print('suma de todos los enteros desde 1 hasta', n, 'es', s)'''
+
+ #ejercicio 2
+print('escriba un numero')
+n=int(input())
+print('escriba otro numero')
+m=int(input())
+c=(n/m)
+r=(n%m)
+print('el cociente es', c)
+print('el residuo es', r)
+if c<1: print('el divisor es mayor al dividendo')
+if c>1: print('el divisor es menor que el dividendo')
+if c==1: print('el divisor y el dividendo son iguales')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
