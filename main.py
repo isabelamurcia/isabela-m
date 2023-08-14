@@ -94,7 +94,7 @@ if s>20:print(s,'es un gran numero!')
 else: print('suma de todos los enteros desde 1 hasta', n, 'es', s)'''
 
  #ejercicio 2
-print('escriba un numero')
+'''print('escriba un numero')
 n=int(input())
 print('escriba otro numero')
 m=int(input())
@@ -104,41 +104,31 @@ print('el cociente es', c)
 print('el residuo es', r)
 if c<1: print('el divisor es mayor al dividendo')
 if c>1: print('el divisor es menor que el dividendo')
-if c==1: print('el divisor y el dividendo son iguales')
+if c==1: print('el divisor y el dividendo son iguales')'''
 
+#ejercicio 3
+'''print('cantidad a invertir')
+ci=float(input())
+print('interes anual')
+ia=float(input())
+print('numero de años')
+na=int(input())
+capital=(ci*(ia/100+1)**na)
+if capital<100000: print('el valor de', capital, 'tiene baja rentabilidad')
+if 100000>capital>1000000:print('el valor de', capital, 'tiene rentabilidad moderada')'''
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#ejercicio 4
+'''print('numero de payasos vendidos')
+p=int(input())
+print('numero de muñescas vendidas')
+m=int(input())
+s="sí"
+pg=p*112
+mg=m*75
+pesototal=pg+mg
+if pesototal>3000000: 
+  print('desea enviarlo?')
+  h=input()
+  if h==s: print('contenedor enviado')
+  else: print('contenedor no enviado')
+else: print('el peso total del pedido es', pesototal)'''
