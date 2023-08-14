@@ -132,3 +132,5 @@ if pesototal>3000000:
   if h==s: print('contenedor enviado')
   else: print('contenedor no enviado')
 else: print('el peso total del pedido es', pesototal)'''
+
+#ejercicio 5
