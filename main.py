@@ -143,7 +143,7 @@ p=int(input('escriba un número '))
 print(suma(o,p))'''
 
  #ejercicio 2
-def suma(n,m):
+'''def suma(n,m):
   return n+m
 def resta(n,m):
   return n-m
@@ -166,4 +166,49 @@ if t==s: print('La suma de', n, 'y', m, 'es', suma(n,m))
 elif t==r: print('La resta de', n, 'y', m, 'es', resta(n,m))
 elif t==p: print('La multiplicacion de', n, 'y', m, 'es', multi(n,m))
 elif t==d: print('La division de', n, 'y', m, 'es', division(n,m))
-else: print ('No es posible ejecutar esa operacion. Ojo, escribir la operacion deseada textualmente de la manera señalada')
+else: print ('No es posible ejecutar esa operacion. Ojo, escribir la operacion deseada textualmente de la manera señalada')'''
+
+#ejercicio 3
+'''def intereses(inv):
+  d=inv
+  if (d>0 and d<1000000):
+    return 2
+  elif(d>=1000000 and d<2000000):
+    return 5
+  else:
+    return 7 
+
+def calBalance(int, inv):
+  n=int
+  d=inv
+  return round ((d*(1+(n/100))),2)
+
+def ctaAhorro():
+  #inversion, interes, b1, b2, b3 =0.0
+  inversion = float(input('introduzca el valor de la inversion'))
+  interes= intereses (inversion)
+  b1= calBalance(interes, inversion)
+  b2= calBalance(interes, b1)
+  b3= calBalance(interes, b2)
+  print('balance año 1: ' + str (b1)+ 'balance año 2:' + str(b2) + 'balance año 3:' + str(b3))
+ctaAhorro()'''
+ #ejercicio 4
+  
+def triangulo ():
+  base=float(input('ingrese la base del triangulo'))
+  altura=('ingrese la altura del triangulo')
+  areatriangulo=base*altura/2
+  return (areatriangulo)
+def cuadrado ():
+  ladoA=float(input('ingrese un lado del cuadrado'))
+  ladoB=float(input('ingrese el otro lado del cuadrado'))
+  areacuadrado=ladoA*ladoB
+  return (areacuadrado)
+def circulo ():
+  radio=float(input('ingrese el radio del circulo'))
+  areacirculo=3.1416*radio**2
+  return (areacirculo)
+def AreaFig ():
+  menu()
+  figura=int(input('ingrese el codigo de la figura que desee '))
+  if figura==1
