@@ -170,45 +170,83 @@ else: print ('No es posible ejecutar esa operacion. Ojo, escribir la operacion d
 
 #ejercicio 3
 '''def intereses(inv):
-  d=inv
-  if (d>0 and d<1000000):
-    return 2
+  d= inv
+  if (d >0 and d<1000000):
+    return 2 
   elif(d>=1000000 and d<2000000):
     return 5
   else:
-    return 7 
+    return 7
 
 def calBalance(int, inv):
-  n=int
-  d=inv
-  return round ((d*(1+(n/100))),2)
+  n= int
+  d= inv
+  return round((d*(1+(n/100))),2)
 
 def ctaAhorro():
-  #inversion, interes, b1, b2, b3 =0.0
-  inversion = float(input('introduzca el valor de la inversion'))
-  interes= intereses (inversion)
+  inversion = float(input('ingrese el valor de la inversion: '))
+  interes= intereses(inversion)
   b1= calBalance(interes, inversion)
-  b2= calBalance(interes, b1)
-  b3= calBalance(interes, b2)
-  print('balance año 1: ' + str (b1)+ 'balance año 2:' + str(b2) + 'balance año 3:' + str(b3))
+  b2= calBalance (interes,b1)
+  b3= calBalance(interes,b2)
+  print("balace año 1: "+ str(b1) + "Balance año 2: " + str(b2) + str(b3))
+
 ctaAhorro()'''
- #ejercicio 4
-  
-def triangulo ():
-  base=float(input('ingrese la base del triangulo'))
-  altura=('ingrese la altura del triangulo')
-  areatriangulo=base*altura/2
-  return (areatriangulo)
-def cuadrado ():
-  ladoA=float(input('ingrese un lado del cuadrado'))
-  ladoB=float(input('ingrese el otro lado del cuadrado'))
-  areacuadrado=ladoA*ladoB
-  return (areacuadrado)
-def circulo ():
-  radio=float(input('ingrese el radio del circulo'))
+
+#ejercicio 2
+'''def menu():
+  print('''ingrese el codigo de la figura
+circulo 1
+cuadrado 2
+triangulo 3
+pentagono regular 4
+rombo 5''')
+'''def circulo():
+  radio=float(input('igrese el valor del radio '))
   areacirculo=3.1416*radio**2
-  return (areacirculo)
-def AreaFig ():
+  return(areacirculo)
+def cuadrado():
+  lado=float(input('ingrese el valor del lado '))
+  areacuadrado=lado*lado
+  return(areacuadrado)
+def triangulo():
+  base=float(input('ingrese el valor de la base '))
+  altura=float(input('ingrese el valor de la altura '))
+  areatriangulo=((base*altura)/2)
+  return(areatriangulo)
+def pentagonoregular():
+  perimetro=float(input('ingrese el valor del perimetro '))
+  apotema=float(input('ingrese el valor del apotema '))
+  areapentagonoregular=((perimetro*apotema)/2)
+  return(areapentagonoregular)
+def rombo():
+  diagonalmayor=float(input('ingrese el valor de la diagonal mayor '))
+  diagonalmenor=float(input('ingrese el valor de la diagoal menor '))
+  if diagonalmenor>diagonalmayor:
+    arearombo=print('valores no validos')
+  else: arearombo=((diagonalmayor*diagonalmenor)/2)
+  return(arearombo)
+def areafig():
   menu()
   figura=int(input('ingrese el codigo de la figura que desee '))
-  if figura==1
+  if figura==1:
+    print(circulo())
+  elif figura==2:
+    print(cuadrado())
+  elif figura==3:
+    print(triangulo())
+  elif figura==4:
+    print(pentagonoregular())
+  elif figura==5:
+    print(rombo())
+  else: print('coigo no valido')
+areafig()'''
+
+#ejercicio 3
+
+
+
+
+
+
+
