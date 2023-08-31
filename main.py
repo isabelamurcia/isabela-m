@@ -247,29 +247,31 @@ def menu():
   print('elija la opcion que se acople a su compra a) 2,000,000 o mas b) 2,000,000 o mas y es marca NOSY c) si solo es marca NOSY')
 
 def a():
-  valorcompra=float(input('ingrese el valor de su compra'))
-    descuentosiniva=valorcompra*0.1
-    iva=descuentosiniva*0.2
-    descuentototal=descuentosiniva+iva
+  valorcompra=float(input('ingrese el valor de su compra '))
+  descuentosiniva=valorcompra*0.1
+  iva=descuentosiniva*0.2
+  descuentototal=descuentosiniva+iva
   return descuentototal
 
 def b():
   valorcompra=float(input('ingrese el valor de su compra '))
-    descuentosiniva=valorcompra*0,15
-    IVA=descuentosiniva*0.2
-    descuentototal=descuentosiniva+IVA
+  descuentosiniva=valorcompra*0.15
+  IVA=descuentosiniva*0.2
+  descuentototal=descuentosiniva+IVA
   return descuentototal
 
 def c():
-  valorcompra=float(input('ingrese el valor de su compra'))
-    descuentosiniva=valorcompra*0.05
-    IVA=descuentosiniva*0.2
-    descuentototal=descuentosiniva+IVA
-  return descuentototal
+  valorcompra=float(input('ingrese el valor de su compra '))
+  descuentosiniva=valorcompra*0.05
+  IVA=descuentosiniva*0.2
+  descuentototal=descuentosiniva+IVA
+  print (escuentototal) 
+  return c()
 
 def principal():
   menu()
-  input('ngrese la letra que le corresponde')
-  if letra==a
-    print(a)
-  
+  letra=input('ingrese la letra que le corresponde ')
+  if letra=="a": a()
+  elif letra=="b": b()
+  elif letra=="c": c()
+principal()
